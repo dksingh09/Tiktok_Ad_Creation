@@ -1,0 +1,62 @@
+{
+  "oauth": [
+    {
+      "id": 1,
+      "code": "mock_auth_code_123",
+      "access_token": "mock_access_token_eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+      "refresh_token": "mock_refresh_token_eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9",
+      "expires_in": 3600,
+      "open_id": "open_id_123456789",
+      "scope": "user.info.basic,ads.identity,ads.management",
+      "token_type": "Bearer"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "open_id": "open_id_123456789",
+      "union_id": "union_id_987654321",
+      "avatar_url": "https://ui-avatars.com/api/?name=Demo+User&background=ff0050&color=fff&size=150",
+      "display_name": "Demo Advertiser",
+      "email": "demo@tiktokads.com",
+      "profile_deep_link": "https://tiktok.com/@demoadvertiser",
+      "created_at": "2023-01-15T10:30:00Z",
+      "updated_at": "2023-12-01T14:20:00Z"
+    }
+  ],
+  "advertisers": [
+    {
+      "id": 1,
+      "advertiser_id": "adv_789012345",
+      "advertiser_name": "My Brand Store",
+      "currency": "USD",
+      "timezone": "America/New_York",
+      "balance": 1250.75,
+      "status": "ACTIVE",
+      "created_at": "2023-01-15T10:30:00Z",
+      "user_id": 1
+    }
+  ],
+  "music": [
+    {
+      "id": "music_001",
+      "title": "Mock Track 1",
+      "author": "Artist 1",
+      "genre": "pop",
+      "is_available_for_ads": true,
+      "created_at": "2023-11-01T00:00:00Z"
+    },
+    {
+      "id": "music_011",
+      "title": "Unapproved Track",
+      "author": "Artist X",
+      "genre": "electronic",
+      "is_available_for_ads": false,
+      "created_at": "2023-11-05T00:00:00Z"
+    }
+  ],
+  "ads": [],
+  "campaigns": [],
+  "analytics": [],
+  "uploads": []
+}

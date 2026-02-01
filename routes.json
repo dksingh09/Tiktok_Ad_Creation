@@ -1,0 +1,11 @@
+{
+  "/api/oauth/token": "/oauth/token",
+  "/api/music/validate/:id": "/music/validate/:id",
+  "/api/ads": "/ads",
+  "/api/advertisers": "/advertisers",
+  "/api/users": "/users",
+  "/api/music": "/music",
+  "/api/uploads": "/uploads",
+  "/api/campaigns": "/campaigns",
+  "/api/analytics": "/analytics"
+}
